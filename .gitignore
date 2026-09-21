@@ -1,0 +1,3 @@
+echo "app" >> .gitignore
+echo "output/" >> .gitignore
+echo ".DS_Store" >> .gitignore
