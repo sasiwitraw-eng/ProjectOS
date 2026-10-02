@@ -1,13 +1,32 @@
 {
-    "configurations": [
-      {
-        "name": "Mac",
-        "includePath": [
-          "${workspaceFolder}/**",
-          "/opt/homebrew/include"
-        ],
-        "cStandard": "c11"
-      }
-    ],
-    "version": 4
-  }
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/include",
+        "/usr/local/include"
+      ],
+      "cStandard": "c11"
+    },
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/include",
+        "/usr/local/include"
+      ],
+      "cStandard": "c11"
+    },
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/msys64/mingw64/include",
+        "C:/msys64/ucrt64/include"
+      ],
+      "cStandard": "c11"
+    }
+  ],
+  "version": 4
+}
